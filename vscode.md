@@ -26,16 +26,16 @@ Open VS Code, which you should have already installed and go to **Code** > **Pre
 
 In the search bar, search for and install the following extensions:
 
-Live Server
-ES Lint
-Prettier Code Formatter
-Auto Rename Tag
-Auto Close Tag
-VS Code Icons
-Git Link
-Git Lens
-Bracket Pair Colorizer
-Path Intellisense
+- Live Server
+- ES Lint
+- Prettier Code Formatter
+- Auto Rename Tag
+- Auto Close Tag
+- VS Code Icons
+- Git Link
+- Git Lens
+- Bracket Pair Colorizer
+- Path Intellisense
 
 
 [Continue With Installfest](chrome.md)
