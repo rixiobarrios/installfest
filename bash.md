@@ -25,4 +25,22 @@ the correct shell.
   scripts/bash.sh
 ```
 
+## macOS Catalina Users
+
+If you are running macOS Catalina version, you'll receive a message in the Terminal each time you open it.  You can safely ignore it but you can also fix it as follows:
+
+In the Terminal, type:
+
+```bash
+code .bash_profile
+```
+
+This will launch VS Code with a file called `.bash_profile` open.  Inside this file, at the very end, add the following line and then save and close the file.
+
+```bash
+export BASH_SILENCE_DEPRECATION_WARNING=1
+```
+
+Exit the Terminal completely (**Terminal** > **Quit Terminal**) and then reopen it.
+
 [Continue With Installfest](command_line_tools.md)
